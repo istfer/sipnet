@@ -1376,6 +1376,7 @@ void calcPrecip(double *rain, double *snowFall, double *immedEvap, double lai)
 
    #if LEAF_WATER
     double maxLeafPool;
+    printf("Leaf water is on. This is a message to confirm testing.\n");
 
     maxLeafPool = lai * params.leafPoolDepth; // calculate current leaf pool size depending on lai
     *immedEvap = (*rain) * params.immedEvapFrac; 
