@@ -88,7 +88,7 @@
 // note: when using a complex water submodel, we ALWAYS keep track of snowpack
 // if model water is off, then snow is off: snow wouldn't do anything
 
-#define GDD 0
+#define GDD 1
 // use GDD to determine leaf growth? (note: mutually exclusive with SOIL_PHENOL)
 
 #define SOIL_PHENOL 0 && !GDD
